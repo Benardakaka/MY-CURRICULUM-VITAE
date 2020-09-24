@@ -5,7 +5,7 @@
 }
 *{
     margin: 0;
-    padding: 0;
+    padding: 18px;
     box-sizing: border-box;
 }
 body{
@@ -31,19 +31,17 @@ body{
     display: inline-block;
     color:red;
     background-color: khaki;
-    padding: 20px;
 
 }
 footer{
     background-color: ivory;
-    /* padding-left: 50px;
-    padding-right: 40px; */
-    /* margin-bottom: 0;
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 300px; */
+    margin-top: 300px;
     color:red;
-  padding: 20px;
 }
 body{
     color: blue;

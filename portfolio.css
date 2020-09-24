@@ -10,6 +10,7 @@
 }
 body{
     background-image: url("images/man-1459246__480.webp");
+    color: red;
 }
 .profile-img{
     width: 40%;
@@ -23,6 +24,7 @@ body{
     float: left;
     padding: 0 30px;
     color: mediumblue;
+    letter-spacing: 2px;
 }
 .home{
     display: flex;
@@ -32,6 +34,7 @@ body{
     display: inline-block;
     color:red;
     background-color: khaki;
+    let
 
 }
 footer{
@@ -44,3 +47,4 @@ footer{
     margin-top: 300px;
     color:red;
 }
+bo
