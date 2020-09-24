@@ -10,7 +10,6 @@
 }
 body{
     background-image: url("images/man-1459246__480.webp");
-    padding: 20px;
 }
 .profile-img{
     width: 40%;
@@ -48,13 +47,4 @@ footer{
 }
 body{
     color: blue;
-}
-footer nav p{
-    display:inline-block;
-    margin-right: 80px;
-
-}
-footer nav{
-    padding: 20px;
-
 }
