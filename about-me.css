@@ -28,7 +28,6 @@ body{
     text-align: center;
 }
 .home nav ul li {
-    display: inline-block;
     color:red;
     background-color: khaki;
 

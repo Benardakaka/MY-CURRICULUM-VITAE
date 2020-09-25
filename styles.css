@@ -1,7 +1,6 @@
 .ben{
     text-align: center;
     color: blue;
-    
 }
 *{
     margin: 0;
@@ -10,19 +9,23 @@
 }
 body{
     background-image: url("images/man-1459246__480.webp");
-    color: blue;
+    color:blue;
+    border: solid black;
 }
 .profile-img{
     width: 40%;
     float: right;}
 .about{
-    margin-left: 15px;
+    margin-left: 30px;
+    letter-spacing: 2px;
 }
 .profile-info{
     width: 60%;
     height: 100vh;
     float: left;
     padding: 0 30px;
+    color: mediumblue;
+    letter-spacing: 3px;
 }
 .home{
     display: flex;
@@ -32,6 +35,7 @@ body{
     display: inline-block;
     color:red;
     background-color: khaki;
+    let
 
 }
 footer{
@@ -43,28 +47,4 @@ footer{
     margin-right: 0;
     margin-top: 300px;
     color:red;
-}
-
-footer{
-    background-color: ivory;
-    /* padding-left: 50px;
-    padding-right: 40px; */
-    /* margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 300px; */
-    color:red;
-  padding: 20px;
-}
-body{
-    color: blue;
-}
-footer nav p{
-    display:inline-block;
-    margin-right: 80px;
-
-}
-footer nav{
-    padding: 202px;
-
 }
