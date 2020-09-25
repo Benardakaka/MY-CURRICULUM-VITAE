@@ -1,0 +1,9 @@
+body{
+    background-image: url("images/man-1459246__480.webp");
+}
+
+.home{
+    display: list-item;
+    text-align: center;
+    color: blue;
+}
