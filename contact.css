@@ -7,3 +7,21 @@ body{
     text-align: center;
     color: blue;
 }
+
+.text-area area{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    background: #ffffff;
+}
+.submit-btn{
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px; 
+    margin: 2%;
+    background: #2ab0ff;
+    cursor: pointer;
+    color: red;
+}
