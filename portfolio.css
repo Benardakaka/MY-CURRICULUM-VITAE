@@ -1,7 +1,6 @@
 .ben{
     text-align: center;
     color: blue;
-    
 }
 *{
     margin: 0;
@@ -10,13 +9,15 @@
 }
 body{
     background-image: url("images/man-1459246__480.webp");
-    color: red;
+    color:blue;
+    border: solid black;
 }
 .profile-img{
     width: 40%;
     float: right;}
 .about{
     margin-left: 15px;
+    letter-spacing: 3px;
 }
 .profile-info{
     width: 60%;
@@ -24,7 +25,7 @@ body{
     float: left;
     padding: 0 30px;
     color: mediumblue;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 .home{
     display: flex;
@@ -47,4 +48,3 @@ footer{
     margin-top: 300px;
     color:red;
 }
-bo
