@@ -48,3 +48,14 @@ footer{
     margin-top: 300px;
     color:red;
 }
+
+
+@media only screen and (max-width:990){
+    .ben{
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile-img{
+        width: 100%;
+    }
+    } 
