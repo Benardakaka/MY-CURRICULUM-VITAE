@@ -1,7 +1,10 @@
 .ben{
     text-align: center;
     color: blue;
-    
+}
+
+.hello{
+    text-align: center;
 }
 *{
     margin: 0;
@@ -14,6 +17,11 @@ body{
 .profile-img{
     width: 40%;
     float: right;}
+
+    .akaka{
+        text-align: center;
+        color: black;
+    }
 .about{
     margin-left: 15px;
 }
@@ -24,8 +32,9 @@ body{
     padding: 0 30px;
 }
 .home{
-    display: flex;
+    display: list-item;
     text-align: center;
+    color: blue;
 }
 .home nav ul li {
     color:red;
