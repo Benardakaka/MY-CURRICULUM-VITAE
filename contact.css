@@ -25,3 +25,14 @@ body{
     cursor: pointer;
     color: red;
 }
+.contacts img{
+    width: 80px;
+    margin: -5px 10px;
+}
+.contacts span{
+    margin: 5%;
+}
+.contacts{
+    margin: 5% 0 5% 25%;
+    width: 65%;
+}
