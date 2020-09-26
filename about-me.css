@@ -20,7 +20,7 @@ body{
 
     .akaka{
         text-align: center;
-        color: black;
+        color: chartreuse;
     }
 .about{
     margin-left: 15px;
@@ -53,4 +53,21 @@ footer{
 }
 body{
     color: blue;
+}
+
+.background{
+    display: inline-block;
+    width: 30%;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.1);
+    background: greenyellow;
+    color: blue;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    height: 150%;
+    margin-right: 2%;
+
+}
 }

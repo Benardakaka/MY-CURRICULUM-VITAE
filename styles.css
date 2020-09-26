@@ -39,7 +39,7 @@ body{
 
 footer{
     background-color: ivory;
-    padding-left: 50px;
+     padding-left: 50px;
     padding-right: 40px;
     margin-bottom: 0;
     margin-left: 0;
@@ -47,6 +47,34 @@ footer{
     margin-top: 3px;
     color:red;
 }
+
+.expert{
+    display: inline-block;
+    width: 30%;
+    padding: 30px 30px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.1);
+    background: greenyellow;
+    color: blue;
+    display: inline-block;
+}
+
+.expert img{
+    width: 100%;
+    padding: 5px;
+    height: 150%;
+    margin-right: 2%;
+
+}
+
+.expert small{
+    padding-top: 10px;
+    display: block;
+}
+
+
+
 
 
 @media only screen and (max-width:990){
@@ -57,4 +85,4 @@ footer{
     .profile-img{
         width: 100%;
     }
-    } 
+    }  
