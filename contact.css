@@ -2,11 +2,11 @@ body{
     background-image: url("images/man-1459246__480.webp");
 }
 
-.home{
+/* .home{
     display: list-item;
     text-align: center;
     color: blue;
-}
+} */
 
 .text-area area{
     width: 95%;
@@ -44,6 +44,26 @@ body{
 .copyright{
     text-align: center; 
     margin-bottom: 20px;
+}
+.home{
+    display: flex;
+    background-color:brown;
+    width: 100%;
+    
+  
+}
+.home nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: wheat !important;
+    text-decoration: none !important;
+   
+}
+
+.home nav ul {
+    padding-left: 500px;
 }
 
 @media only screen and (max-width:990){

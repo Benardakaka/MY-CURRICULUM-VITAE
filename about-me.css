@@ -3,16 +3,16 @@
     color: blue;
 }
 
-.hello{
-    text-align: center;
-}
+
 *{
     margin: 0;
-    padding: 18px;
+    padding: 0;
     box-sizing: border-box;
+    line-height: 50px;
 }
 body{
     background-image: url("images/man-1459246__480.webp");
+    padding: 18px;
 }
 .profile-img{
     width: 40%;
@@ -20,7 +20,7 @@ body{
 
     .akaka{
         text-align: center;
-        color: chartreuse;
+        color: blue;
     }
 .about{
     margin-left: 15px;
@@ -31,17 +31,17 @@ body{
     float: left;
     padding: 0 30px;
 }
-.home{
+/* .home{
     display: list-item;
     text-align: center;
     color: blue;
-}
-.home nav ul li {
+} */
+/* .home nav ul li {
     color:red;
     background-color: khaki;
 
-}
-footer{
+} */
+/* footer{
     background-color: ivory;
     padding-left: 50px;
     padding-right: 40px;
@@ -50,7 +50,7 @@ footer{
     margin-right: 0;
     margin-top: 300px;
     color:red;
-}
+} */
 body{
     color: blue;
 }
@@ -61,8 +61,8 @@ body{
     margin: 2%;
     text-align: center;
     box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.1);
-    background: greenyellow;
-    color: blue;
+    background:beige;
+    color: black;
     display: inline-block;
     width: 100%;
     padding: 5px;
@@ -70,4 +70,23 @@ body{
     margin-right: 2%;
 
 }
+.home{
+    display: flex;
+    background-color:brown;
+    width: 100%;
+    
+  
+}
+.home nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: wheat !important;
+    text-decoration: none !important;
+   
+}
+
+.home nav ul {
+    padding-left: 500px;
 }

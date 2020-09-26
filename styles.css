@@ -3,7 +3,11 @@
 
     box-sizing: border-box;
 }
-
+body{
+    /* background-image: url("images/man-1459246__480.webp"); */
+    /* color:blue; */
+    border: solid black;
+}
 .profile-img{
     border-radius: 50%;
     text-align: center;
@@ -16,17 +20,20 @@
 .intro{
     text-align: center;
     font-size: 40px;
-    background-color: burlywood;
+    /* background-color: beige; */
+    background-image: url(/images/pic2.jpg);
+ 
+  
 }
 #name{
     color:blue;
 }
 .home{
     display: flex;
-    background-color: black;
+    background-color:brown;
     width: 100%;
     
-    /* text-align: center; */
+  
 }
 .home nav ul li {
     display: inline-block;
@@ -35,19 +42,19 @@
     padding: 30px;
     color: wheat !important;
     text-decoration: none !important;
-    
-    /* color:red;
-    background-color: khaki; */
+   
 }
 
 .home nav ul {
     padding-left: 500px;
 }
 
-footer li{
+.footer li{
     list-style: none;
     display: inline-block;
-    padding-right: 30px;
+    padding: 50px;
+    background-color: blueviolet;
+    text-align: center;
 }
  .experts{
      display: flex;

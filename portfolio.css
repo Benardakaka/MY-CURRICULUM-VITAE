@@ -5,13 +5,13 @@
 }
 
 
-.home{
+/* .home{
     display: flex;
-    background-color: black;
-    width: 100%;
+    background-color:blue;
+    width: 100%; */
     
     /* text-align: center; */
-}
+/* } */
 .home nav ul li {
     display: inline-block;
     list-style: none;
@@ -19,9 +19,16 @@
     padding: 30px;
     color: wheat !important;
     text-decoration: none !important;
-    
+/* 
+.home nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: wheat !important;
+    text-decoration: none !important;
     /* color:red;
-    background-color: khaki; */
+    background-color: khaki; */ */
 }
 
 .home nav ul {
@@ -35,6 +42,21 @@ footer li{
 }
  .experts{
      display: flex;
+ }
+
+ .links{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: black !important;
+    text-decoration: none !important;
+    margin-left: 40%;
+    line-height: 50px;
+ 
+ }
+ .links p{
+     font-weight: bold;
  }
 .expert{
     display: inline-block;
@@ -74,3 +96,31 @@ footer li{
         width: 100%;
     }
     }  
+    .home{
+        display: flex;
+        background-color:brown;
+        width: 100%;
+        
+      
+    }
+    .home nav ul li {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding: 30px;
+        color: wheat !important;
+        text-decoration: none !important;
+       
+    }
+    
+    .home nav ul {
+        padding-left: 500px;
+    }
+    .komar{
+        background-image: url("/images/logo1.png");
+    }
+    .about{
+        margin-left: 500px;
+        margin-right: 500px;
+        line-height: 50px;
+    }
