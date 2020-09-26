@@ -1,50 +1,113 @@
-.ben{
-    text-align: center;
-    color: blue;
-}
 *{
     margin: 0;
-    padding: 18px;
+
     box-sizing: border-box;
 }
-body{
-    background-image: url("images/man-1459246__480.webp");
-    color:blue;
-    border: solid black;
-}
-.profile-img{
-    width: 40%;
-    float: right;}
-.about{
-    margin-left: 15px;
-    letter-spacing: 3px;
-}
-.profile-info{
-    width: 60%;
-    height: 100vh;
-    float: left;
-    padding: 0 30px;
-    color: mediumblue;
-    letter-spacing: 3px;
-}
-.home{
-    display: flex;
-    text-align: center;
-}
+
+
 .home nav ul li {
     display: inline-block;
-    color:red;
-    background-color: khaki;
-    let
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: beige !important;
+    text-decoration: none !important;
+}
+
+.home nav ul {
+    padding-left: 500px;
+}
+ .experts{
+     display: flex;
+ }
+
+ .links{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: black !important;
+    text-decoration: none !important;
+    margin-left: 40%;
+    line-height: 50px;
+ 
+ }
+ .links p{
+     font-weight: bold;
+ }
+.expert{
+    display: inline-block;
+    width: 30%;
+    padding: 20px 20px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 2px rgba(40, 73, 214, 1);
+    background: greenyellow;
+    color: blue;
+    display: inline-block;
+}
+
+.expert img{
+    width: 100%;
+    padding: 5px;
+    
+    margin-right: 2%;
 
 }
-footer{
-    background-color: ivory;
-    padding-left: 50px;
-    padding-right: 40px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 300px;
-    color:red;
+
+.expert small{
+    padding-top: 10px;
+    display: block;
 }
+
+.foot{
+     display: inline-block;
+    width: 100%;
+    /* padding: 20px 20px; */
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 2px rgba(40, 73, 114, 1);
+    background: beige;
+    color: blue;
+}
+
+@media only screen and (max-width:990){
+    .profile-info{
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile-img{
+        width: 100%;
+    }
+    }  
+    .home{
+        display: flex;
+        background-color:beige;
+        width: 100%;
+        
+      
+    }
+    .home nav ul li {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding: 30px;
+        color: wheat !important;
+        text-decoration: none !important;
+       color: black;
+    }
+    
+    .home nav ul {
+        padding-left: 500px;
+    }
+    .komar{
+        background-image: url("images/logo1.png");
+    }
+    .about{
+        margin-left: 500px;
+        margin-right: 500px;
+        line-height: 50px;
+    }
+    .links{
+        font-size: 25px;
+    }

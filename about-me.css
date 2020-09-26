@@ -1,19 +1,27 @@
 .ben{
     text-align: center;
     color: blue;
-    
 }
+
+
 *{
     margin: 0;
-    padding: 18px;
+    padding: 0;
     box-sizing: border-box;
+    line-height: 50px;
 }
 body{
     background-image: url("images/man-1459246__480.webp");
+    padding: 18px;
 }
 .profile-img{
     width: 40%;
     float: right;}
+
+    .akaka{
+        text-align: center;
+        color: blue;
+    }
 .about{
     margin-left: 15px;
 }
@@ -23,26 +31,55 @@ body{
     float: left;
     padding: 0 30px;
 }
+
+.background{
+    display: inline-block;
+    width: 30%;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.1);
+    background:beige;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    height: 150%;
+    margin-right: 2%;
+
+}
 .home{
     display: flex;
-    text-align: center;
+    background-color:beige;
+    width: 100%;
+    
+  
 }
 .home nav ul li {
     display: inline-block;
-    color:red;
-    background-color: khaki;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: beige !important;
+    text-decoration: none !important;
+   
+}
+.akaka{
+    font-size: 30px;
+}
 
+
+.foot{
+    display: inline-block;
+   width: 100%;
+   padding: 20px 20px;
+   margin: 2%;
+   text-align: center;
+   box-shadow: 0 0 15px 2px rgba(40, 73, 114, 1);
+   background: beige;
+   color: blue;
 }
-footer{
-    background-color: ivory;
-    padding-left: 50px;
-    padding-right: 40px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 300px;
-    color:red;
-}
-body{
-    color: blue;
+
+
+.home nav ul {
+    padding-left: 500px;
 }

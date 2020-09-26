@@ -1,0 +1,87 @@
+body{
+    background-image: url("images/man-1459246__480.webp");
+}
+
+
+.text-area area{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    background: #ffffff;
+}
+.submit-btn{
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px; 
+    margin: 2%;
+    background: #2ab0ff;
+    cursor: pointer;
+    color: red;
+}
+.contacts img{
+    width: 100px;
+    margin: 1px 30px;
+}
+    .form-inbox{
+        text-align: center;
+        box-shadow: 0 0 15px 2px rgba(40, 73, 114, 1);
+    }
+
+.contacts span{
+    margin: 5%;
+}
+.contacts{
+    margin: 5% 0 5% 25%;
+    width: 65%;
+}
+
+.copyright{
+    text-align: center; 
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px 2px rgba(40, 73, 114, 1);
+}
+.home{
+    display: flex;
+    background-color:beige;
+    width: 100%;
+}
+
+
+.foot{
+    display: inline-block;
+   width: 100%;
+   padding: 20px 20px;
+   margin: 2%;
+   text-align: center;
+   box-shadow: 0 0 15px 2px rgba(40, 73, 114, 1);
+   background: beige;
+   color: black;
+}
+.home nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: wheat !important;
+    text-decoration: none !important;
+}
+.for{
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+.home nav ul {
+    padding-left: 500px;
+}
+
+@media only screen and (max-width:990){
+    .span{
+        display: block;
+    }
+    } 
+    .form-inbox{
+        font-size: 70px;
+        background-color: beige;
+    }
