@@ -1,61 +1,76 @@
-.ben{
-    text-align: center;
-    color:blue;
-}
 *{
     margin: 0;
-    padding: 18px;
+
     box-sizing: border-box;
 }
-body{
-    background-image: url("images/man-1459246__480.webp");
-    color:crimson
-    border: solid black;
-}
-.profile-img{
-    width: 40%;
-    float: right;}
-.about{
-    margin-left: 30px;
-    letter-spacing: 2px;
-}
-.profile-info{
-    width: 60%;
-    height: 100vh;
-    float: left;
-    padding: 0 30px;
-    color: mediumblue;
-    letter-spacing: 3px;
-}
+
+
 .home{
     display: flex;
-    text-align: center;
+    background-color: black;
+    width: 100%;
+    
+    /* text-align: center; */
 }
 .home nav ul li {
     display: inline-block;
-    color:red;
-    background-color: khaki;
-    let
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    color: wheat !important;
+    text-decoration: none !important;
+    
+    /* color:red;
+    background-color: khaki; */
+}
+
+.home nav ul {
+    padding-left: 500px;
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+ .experts{
+     display: flex;
+ }
+.expert{
+    display: inline-block;
+    width: 30%;
+    padding: 20px 20px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.1);
+    background: greenyellow;
+    color: blue;
+    display: inline-block;
+}
+
+.expert img{
+    width: 100%;
+    padding: 5px;
+    
+    margin-right: 2%;
 
 }
-footer{
-    background-color: ivory;
-    padding-left: 50px;
-    padding-right: 40px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 300px;
-    color:red;
+
+.expert small{
+    padding-top: 10px;
+    display: block;
 }
+
+
+
 
 
 @media only screen and (max-width:990){
-    .ben{
+    .profile-info{
         width: 100%;
         overflow: inherit;
     }
     .profile-img{
         width: 100%;
     }
-    } 
+    }  
