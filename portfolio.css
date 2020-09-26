@@ -5,40 +5,17 @@
 }
 
 
-/* .home{
-    display: flex;
-    background-color:blue;
-    width: 100%; */
-    
-    /* text-align: center; */
-/* } */
 .home nav ul li {
     display: inline-block;
     list-style: none;
     text-decoration: none;
     padding: 30px;
-    color: wheat !important;
+    color: beige !important;
     text-decoration: none !important;
-/* 
-.home nav ul li {
-    display: inline-block;
-    list-style: none;
-    text-decoration: none;
-    padding: 30px;
-    color: wheat !important;
-    text-decoration: none !important;
-    /* color:red;
-    background-color: khaki; */ 
 }
 
 .home nav ul {
     padding-left: 500px;
-}
-
-footer li{
-    list-style: none;
-    display: inline-block;
-    padding-right: 30px;
 }
  .experts{
      display: flex;
@@ -64,7 +41,7 @@ footer li{
     padding: 20px 20px;
     margin: 2%;
     text-align: center;
-    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.1);
+    box-shadow: 0 0 15px 2px rgba(40, 73, 214, 1);
     background: greenyellow;
     color: blue;
     display: inline-block;
@@ -83,9 +60,16 @@ footer li{
     display: block;
 }
 
-
-
-
+.foot{
+     display: inline-block;
+    width: 100%;
+    /* padding: 20px 20px; */
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 2px rgba(40, 73, 114, 1);
+    background: beige;
+    color: blue;
+}
 
 @media only screen and (max-width:990){
     .profile-info{
@@ -98,7 +82,7 @@ footer li{
     }  
     .home{
         display: flex;
-        background-color:brown;
+        background-color:beige;
         width: 100%;
         
       
@@ -110,7 +94,7 @@ footer li{
         padding: 30px;
         color: wheat !important;
         text-decoration: none !important;
-       
+       color: black;
     }
     
     .home nav ul {
@@ -123,4 +107,7 @@ footer li{
         margin-left: 500px;
         margin-right: 500px;
         line-height: 50px;
+    }
+    .links{
+        font-size: 25px;
     }

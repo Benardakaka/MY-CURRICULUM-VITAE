@@ -22,25 +22,22 @@ body{
     font-size: 40px;
     /* background-color: beige; */
     background-image: url(/images/pic2.jpg);
- 
-  
 }
 #name{
     color:blue;
 }
 .home{
     display: flex;
-    background-color:brown;
+    background-color: beige;
     width: 100%;
-    
-  
+    box-shadow: 0 0 15px 2px rgba(40, 73, 214, 1);
 }
 .home nav ul li {
     display: inline-block;
     list-style: none;
     text-decoration: none;
     padding: 30px;
-    color: wheat !important;
+    color: black;
     text-decoration: none !important;
    
 }
@@ -49,13 +46,6 @@ body{
     padding-left: 500px;
 }
 
-.footer li{
-    list-style: none;
-    display: inline-block;
-    padding: 50px;
-    background-color: blueviolet;
-    text-align: center;
-}
  .experts{
      display: flex;
  }
@@ -65,7 +55,7 @@ body{
     padding: 20px 20px;
     margin: 2%;
     text-align: center;
-    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.1);
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 1);
     background: greenyellow;
     color: blue;
     display: inline-block;
@@ -82,6 +72,22 @@ body{
 .expert small{
     padding-top: 10px;
     display: block;
+}
+.foot{
+    display: inline-block;
+   width: 100%;
+   /* padding: 20px 20px; */
+   margin: 2%;
+   text-align: center;
+   box-shadow: 0 0 15px 2px rgba(40, 73, 114, 1);
+   background: beige;
+   color: blue;
+}
+
+.be{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
 }
 
 
