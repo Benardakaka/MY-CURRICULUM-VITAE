@@ -21,7 +21,7 @@ body{
     text-align: center;
     font-size: 40px;
     /* background-color: beige; */
-    background-image: url(/images/pic2.jpg);
+    background-image: url(images/pic2.jpg);
 }
 #name{
     color:blue;
