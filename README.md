@@ -1,5 +1,4 @@
 # MY-CURRICULUM-VITAE
-#### By **{BENARD AKAKA}**
 #### {This Akaka's portfolio,who deal with basic concept only Web Designing and Developer}, {27/09/2020}
 #### By **{BENARD AKAKA}**
 ## Description
